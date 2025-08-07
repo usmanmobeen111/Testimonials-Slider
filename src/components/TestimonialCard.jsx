@@ -4,11 +4,11 @@ import { FaStar } from 'react-icons/fa'
 
 const TestimonialCard = ({ id, name, role, company, avatar, quote, rating }) => {
   return (
-    <div className="w-full max-w-sm bg-white rounded-lg shadow-lg overflow-hidden relative m-4">
+    <div className="w-full max-w-sm bg-white rounded-lg shadow-lg overflow-hidden relative m-6">
       
       {/* Quote + Rating Section */}
       <div className="p-6">
-        <BiSolidQuoteRight className="text-gray-500 text-2xl mb-2" />
+        <BiSolidQuoteRight className="text-gray-500 text-4xl mb-2" />
         <p className="text-gray-700 text-sm mb-4">{quote}</p>
 
         {/* Stars */}
